@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio - Davi</title>
+    
+    <!-- conecta o html ao arquivo css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- menu de navegação entre as seções do site -->
+    <nav>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#formacao">Formação</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- apresentação resumida no inicio da página -->
+    <section id="inicio">
+        <h1>BEM VINDO AO MEU PORTFOLIO</h1>
+
+        <p> Sou estudante de Engenharia de Software e atuo na área de Recursos Humanos. Este portfólio apresenta um pouco da minha trajetória profissional, formação e projetos.</p>
+
+        <p>A seguir, você encontrará mais informações sobre mim.</p>
+
+    </section>
+    
+    <!-- apresentação pessoal e trajetória profissional  -->
+    <section id="sobre">
+        <h1>Sobre Mim</h1>
+
+        <p>
+            Meu nome é Davi Wellington. Atualmente atuo na área de Recursos Humanos em uma empresa do setor de mineração, desempenhando atividades relacionadas aos processos de contratação, mobilização e desligamento de colaboradores, além do controle de planilhas e demais rotinas administrativas. Também possuo experiência em conferência, tratamento e regularização de ponto eletrônico.
+
+            Atualmente, estou cursando Engenharia de Software pela Uninter, buscando ampliar meus conhecimentos na área de tecnologia e desenvolver competências que contribuam para minha formação profissional.
+        </p>
+
+        <p>
+            Tenho grande interesse pela área de tecnologia e programação, pois gosto de aprender coisas novas, adquirir conhecimento e buscar constante evolução, tanto no âmbito pessoal quanto profissional. O que mais me motiva na programação é a possibilidade de desenvolver soluções para os mais diversos problemas, utilizando a lógica, a criatividade e a tecnologia para gerar resultados.
+        </p>
+        <p>
+            Nas horas vagas, gosto de assistir futebol, assistir séries, viajar e estudar assuntos relacionados à tecnologia. Também busco constantemente aprender novos conteúdos sobre programação e desenvolvimento de software, acreditando que o aprendizado contínuo é essencial para a evolução pessoal e profissional.
+        </p>
+
+    </section>
+
+    <!-- apresentação da formação academica -->
+    <section id="formacao">
+        <h2>Formação</h2>
+
+        <p>
+            Atualmente estou cursando Engenharia de Software e finalizando o segundo semestre da graduação.
+        </p>
+
+        <p>
+            Estou desenvolvendo conhecimentos em HTML, CSS, JavaScript e Python, ampliando minhas habilidades em desenvolvimento de software.
+        </p>
+
+        <p> Além da graduação, possuo curso de Informática Avançada, o que fortaleceu minha base em ferramentas e recursos de informática utilizados no ambiente profissional. </p>
+
+        <p>
+            <strong>Idiomas:</strong>
+        </p>
+
+        <ul>
+            <li>Português - Nativo</li>
+        </ul>
+    </section>
+
+        <!-- apresentação do portfolio -->
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+
+        <div class="construcao">
+            <h3>💻 Projetos desenvolvidos</h3>
+
+
+            <p>
+                Abaixo estão alguns projetos desenvolvidos durante minha graduação em Engenharia de Software.
+            </p>
+            <div class="projetos">
+
+                <div class="projeto">
+                    <h4>📂 Cadastro de Contatos</h4>
+                    <p>Projeto desenvolvido em Python para gerenciamento de contatos.</p>
+                </div>
+
+                <div class="projeto">
+                    <h4>📊 Calculadora de Plano de Saúde</h4>
+                    <p>Sistema desenvolvido em Python para cálculo de planos de saúde.</p>
+                </div>
+
+                <div class="projeto">
+                    <h4>🪵 Orçamento de Venda de Madeira</h4>
+                    <p>Aplicação em Python para cálculo de orçamentos e descontos na venda de madeira.</p>
+                </div>
+
+                </div>
+
+                <p>
+                    Em breve novos projetos desenvolvidos em HTML, CSS, JavaScript e Python serão adicionados a este portfólio.
+                </p>
+
+            </div>
+    </section>
+
+    <!-- formulario para contato, como: nome, email e mensagem -->
+    <section id="contato">
+        <h2>Contato</h2>
+
+        <form id="formulario">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Arquivo javascript responsavel pelas interações do site, como confirmação de mensagem enviada -->
+    <script src="script.js"></script>
+</body>
+</html>
