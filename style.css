@@ -151,3 +151,10 @@ button:hover {
     transition: 0.3s;
     box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
 }
+
+/* Remove a aparência padrão dos links dos projetos */
+.link-projeto {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
